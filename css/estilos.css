@@ -1,0 +1,370 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?snaksj');
+	src:url('fonts/icomoon.eot?#iefixsnaksj') format('embedded-opentype'),
+		url('fonts/icomoon.woff?snaksj') format('woff'),
+		url('fonts/icomoon.ttf?snaksj') format('truetype'),
+		url('fonts/icomoon.svg?snaksj#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+	content: "\ea8e";
+	margin-right: 3.5em;
+}
+
+.icon-twitter:before {
+	content: "\ea93";
+	margin-right: 4.5em;
+}
+
+.icon-github:before {
+	content: "\eab1";
+	margin-right: 4.5em;
+}
+
+
+
+
+.u-title{
+	color: #1E1E1E;
+	border-bottom: dashed 2px  #1E1E1E;
+	font-weight: 400px;
+	text-align: center;
+	padding-bottom: 0em;
+}
+.MainMenu
+{
+	position: fixed;
+	background: #1E1E1E;
+	text-align: center;
+	height: 2.5em;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	opacity: .9;
+}
+	.MainMenu-list
+	{
+		margin:0;
+		padding:0;
+		font-weight: 600;
+	}
+	.MainMenu-item
+	{
+		display: inline-block;
+	}
+	.MainMenu-link
+	{
+		color: white;
+		text-decoration: none;
+		line-height: 2.5em;
+		margin-right: 1.5em; 
+	}
+.Header
+{
+	background-image: url(../imagenes/responsive.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	text-align: center;
+	background-position: scroll;
+/*	background-attachment: fixed;*/
+	box-shadow: 0px 3px 2px #A4A4A4;
+}
+.Header-imageContainer
+{
+	display: inline-block;
+	padding-top: 5em;
+}
+.Header-image
+{
+	margin top: 50px;
+	border: 5px solid white;
+	border-radius: 50%; 
+}
+.Header-name,
+.Header-link{
+	color: white;
+}
+
+.Header-link
+{
+	font-size: 2em;
+	font-weight: bold;
+	text-decoration: none;
+}
+.Header-name
+{
+	font-size: 1.5em;
+	font-weight: 300;
+	margin: 0;
+}
+.Header-imageContainer
+{
+	margin: 0;
+}
+.Header-imageDescription
+{
+	
+}
+.Profile
+{
+	text-align: center;
+}
+.Profile-span
+{
+	font-weight: 500;
+	color: black;
+
+}
+.Profile-title
+{
+	text-align: center;
+	display: inline-block;
+}
+.Profile-description
+{
+	color: #848484;
+	margin-top: 0;
+	font-weight: 500;
+	margin-bottom: 1.5em;
+}
+.Profile-linkTwitter
+{
+	color: white;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: 2em;
+	margin-right: 2em;
+	padding: .4em  .6em;
+	background: #55ACEE;
+	border-radius: 20px;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: normal;
+	padding-right: 5em;
+}
+.Profile-linkFacebook{
+
+	color: white;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: 2em;
+	margin-right: 2em;
+	padding: .4em  .6em;
+	background: #45619D;
+	border-radius: 20px;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: normal;
+	padding-right: 3.5em;
+}
+.Profile-linkGithub{
+	color: white;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left: 2em;
+	margin-right: 2em;
+	padding: .4em  .6em;
+	background: #525357;
+	border-radius: 20px;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: normal;
+	padding-right: 5em;
+}
+
+.Work
+{	
+
+	text-align: center;
+}
+.Work-title
+{
+	margin-top: 2em;
+	text-align: center;
+	border-bottom: dashed 2px  #1E1E1E;
+}
+.Work-article
+{
+	display: inline-block;
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+.Work-imageContainer
+{
+	margin: 0em;
+
+}
+.Work-img
+{
+	width: 320px;
+}
+.Work-description
+{
+	font-size: 1.1em;
+	color: #515151;
+	font-style: italic;
+	text-decoration: none;
+}
+.Link-formulario
+{
+	color: white;
+	
+	font-weight: bold;
+}
+
+
+.Footer
+{
+	background-image: url("../imagenes/responsive.jpg");
+	background-repeat: no-repeat;
+	margin-bottom: 150px;
+	background-position: bottom;
+	background-size: cover;
+	text-align: center;
+	padding: 2em 0;
+	margin-bottom: 0;
+	padding: 0.2em;
+	color: white;
+	background-attachment: fixed;
+	box-shadow: 0px -3px 2px #A4A4A4;
+}
+.Footer-title
+{
+	color: white;
+}
+
+.Footer-formInput,
+.Footer-textarea
+{
+	background: white;
+	border: none;
+	border-radius: 1em;
+	display:block;
+	
+	padding: .2em;
+	margin: 0 auto 1em;
+
+}
+.Footer-button
+{
+	background: orange;
+	margin-bottom: 10px;
+	padding: .3em;
+	border-radius: 1em;
+	border: none;
+}
+.Footer-left
+{
+	display: inline-block;
+	width: 32em;
+	text-align: center;
+
+}
+
+@media screen and (max-width: 1100px){
+	.Header
+	{
+		background-image: url(../imagenes/responsive.jpg);
+		height: 210px;
+
+	}
+	.Header-imageContainer
+	{
+		padding-top: 6em;
+	}
+	.Header-imageDescription
+	{
+		display: none;
+	}
+	.Profile-title
+	{
+		display: none;
+	}
+	.Header-name
+	{
+		display: none;
+	}
+	.Header-link
+	{
+		display: none;
+	}
+	.Profile-description
+	{
+		margin-top: 6.5em;
+		margin-left: 1em;
+		margin-right: 1em;
+		margin-bottom: 1em;
+		font-weight: 500;
+		color: #848484;
+		text-align: center;
+	}
+	.Profile-linkTwitter
+	{
+		display: block;
+		margin-top: .5em;
+		margin-bottom: .5em;
+	}
+	.Profile-linkFacebook
+	{
+		display: block;
+		margin-top: .5em;
+		margin-bottom: .5em;
+	}
+	.Profile-linkGithub
+	{
+		display: block;
+		margin-top: .5em;
+		margin-bottom: .5em;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media screen and (min-width:768px)
+    #contenido
+        #nota
+            float right
+            font-size 1em
+            height auto
+            width 20%
+        #nota:hover
+            height auto
+        .item
+            display inline-block
+            vertical-align top
+            width 30%
+            .titulo_item a
+                font-size 0.9em
+                font-weight normal
+@media screen and (min-width:1280px)
+    #contenido
+        .item
+            width 20%*/
