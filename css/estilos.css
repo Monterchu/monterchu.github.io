@@ -1,0 +1,397 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?sedf8');
+	src:url('fonts/icomoon.eot?#iefixsedf8') format('embedded-opentype'),
+		url('fonts/icomoon.ttf?sedf8') format('truetype'),
+		url('fonts/icomoon.woff?sedf8') format('woff'),
+		url('fonts/icomoon.svg?sedf8#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-whatsapp:before {
+	content: "\e600";
+	color: #444444;
+	margin-right: 0.3em;
+	border: 5px;
+}
+.icon-whatsapp:hover {
+	color: green;
+}
+.icon-mail:before {
+	content: "\ea83";
+	color: #444444;
+	margin-right: 0.3em;
+}
+.icon-facebook2:before {
+	content: "\ea8d";
+	color: #444444;
+	margin-right: 0.3em;
+}
+.icon-facebook2:hover
+{
+	color: blue;
+}
+.icon-twitter2:before {
+	content: "\ea92";
+	color: #444444;
+	margin-right: 0.3em;
+}
+.icon-dribbble2:before {
+	content: "\eaa7";
+	color: #444444;
+	margin-right: 0.3em;
+}
+.icon-github3:before {
+	content: "\eab3";
+	color: #444444;
+	margin-right: 0.3em;
+}
+.icon-skype:before {
+	content: "\eac6";
+	color: #444444;
+	margin-right: 0.3em;
+}
+
+.u-title{
+	color: white;
+	border-bottom: dashed 2px  #1E1E1E;
+	font-weight: 400px;
+	text-align: center;
+	padding-bottom: 0em;
+}
+.MainMenu
+{
+	position: fixed;
+	background: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	height: 2.5em;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	opacity: .9;
+}
+	.MainMenu-list
+	{
+		margin:0;
+		padding:0;
+		font-weight: 600;
+	}
+	.MainMenu-item
+	{
+		display: inline-block;
+	}
+	.MainMenu-link
+	{
+		color: white;
+		text-decoration: none;
+		line-height: 2.5em;
+		margin-right: 3em; 
+	}
+.Header
+{
+	background-image: url(../imagenes/img_principal.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	text-align: center;
+	background-position: scroll;
+/*	background-attachment: fixed;*/
+	box-shadow: 0px 3px 2px #A4A4A4;
+}
+.Header-imageContainer
+{
+	display: inline-block;
+	margin-top: 9em;
+}
+.Header-image
+{
+	margin-top: 1em;
+	border: 4px solid white;
+	border-radius: 50%; 
+	width: 172px;
+	height: 172px;
+}
+.Header-name,
+.Header-link{
+	color: white;
+}
+
+.Header-link
+{
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration: none;
+	margin-bottom: 1em;
+}
+.Header-name
+{
+	font-size: 1em;
+	font-weight: 800;
+	margin: 0;
+}
+.Header-imageContainer
+{
+	margin: 0;
+}
+.Header-imageDescription
+{
+	margin-bottom: 1em;
+}
+.Profile
+{
+	text-align: center;
+	margin-top: 100px;
+}
+.Profile-span
+{
+	font-weight: 500;
+	color: black;
+
+}
+.Profile-title
+{
+	text-align: center;
+	display: inline-block;
+}
+.Profile-description
+{
+	color: #848484;
+	margin-top: 0;
+	font-weight: 500;
+	margin-bottom: 1.5em;
+}
+.Profile-redes
+{
+	text-decoration: none;
+	margin-top: 10px;∫
+}
+
+
+.Work
+{	
+	text-align: center;
+}
+.Work-title
+{
+	margin-top: 2em;
+	text-align: center;
+	border-bottom: dashed 2px  #1E1E1E;
+}
+.Work-article
+{
+	display: inline-block;
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+.Work-imageContainer
+{
+	margin: 0em;
+
+}
+.Work-img
+{
+	width: 320px;
+}
+.Work-description
+{
+	font-size: 1.1em;
+	color: #515151;
+	font-style: italic;
+	text-decoration: none;
+}
+.Link-formulario
+{
+	color: white;
+	
+	font-weight: bold;
+}
+
+
+@media screen and (min-width: 200px){
+	.Header
+	{
+		background-image: black;
+		height: 250px;
+
+	}
+	.Header-imageContainer
+	{
+		padding-top: 8em;
+	}
+	.Header-imageDescription
+	{
+		/*display: none;*/
+	}
+	.MainMenu-link
+	{
+		margin-right: 1em; 
+
+	}
+	.Profile-title
+	{
+		/*display: none;*/
+	}
+	.Profile-redes
+	{	
+		text-decoration: none;
+		padding-top: 10px;
+		font-size: 2em;
+	}
+/*	.Header-name
+	{
+		display: none;
+	}
+	.Header-link
+	{
+		display: none;
+	}*/
+	.Profile-description
+	{
+		margin-top: 2em;
+		margin-left: 1em;
+		margin-right: 1em;
+		margin-bottom: 1em;
+		font-weight: 500;
+		color: #444444;
+		text-align: center;
+	}
+}
+@media screen and (min-width: 400px){
+	.Header
+	{
+		background-image: black;
+		height: 313px;
+
+	}
+	.Header-imageContainer
+	{
+		padding-top: 12em;
+		width: 233px;
+		height: 233px;
+	}
+	.Header-imageDescription
+	{
+		/*display: none;*/
+	}
+	.Profile-title
+	{
+		/*display: none;*/
+	}
+	.Profile-redes
+	{	
+		text-decoration: none;
+		padding-top: 15px;
+		font-size: 2em;
+	}
+	.Header-name
+	{
+		/*display: none;*/
+	}
+	.Header-link
+	{
+		/*display: none;*/
+	}
+	.Profile-description
+	{
+		margin-top: 2em;
+		margin-left: 1em;
+		margin-right: 1em;
+		margin-bottom: 1em;
+		font-weight: 500;
+		color: #444444;
+		text-align: center;
+	}
+}
+@media screen and (min-width: 700px){
+	.Header
+	{
+		background-image: black;
+		height: 400px;
+
+	}
+	.Header-imageContainer
+	{
+		padding-top: 17em;
+		width: 433px;
+		height: 433px;
+	}
+	.Header-imageDescription
+	{
+		/*display: none;*/
+	}
+	.Profile-title
+	{
+		/*display: none;*/
+	}
+	.Profile-redes
+	{	
+		text-decoration: none;
+		padding-top: 15px;
+		font-size: 2em;
+	}
+	.Header-name
+	{
+		/*display: none;*/
+	}
+	.Header-link
+	{
+		/*display: none;*/
+	}
+	.Profile-description
+	{
+		margin-top: 2em;
+		margin-left: 1em;
+		margin-right: 1em;
+		margin-bottom: 1em;
+		font-weight: 500;
+		color: #444444;
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+/*@media screen and (min-width:768px)
+    #contenido
+        #nota
+            float right
+            font-size 1em
+            height auto
+            width 20%
+        #nota:hover
+            height auto
+        .item
+            display inline-block
+            vertical-align top
+            width 30%
+            .titulo_item a
+                font-size 0.9em
+                font-weight normal
+@media screen and (min-width:1280px)
+    #contenido
+        .item
+            width 20%*/
