@@ -1,10 +1,18 @@
 @font-face {
 	font-family: 'icomoon';
+<<<<<<< HEAD
 	src:url('fonts/icomoon.eot?sedf8');
 	src:url('fonts/icomoon.eot?#iefixsedf8') format('embedded-opentype'),
 		url('fonts/icomoon.ttf?sedf8') format('truetype'),
 		url('fonts/icomoon.woff?sedf8') format('woff'),
 		url('fonts/icomoon.svg?sedf8#icomoon') format('svg');
+=======
+	src:url('fonts/icomoon.eot?-ubftkl');
+	src:url('fonts/icomoon.eot?#iefix-ubftkl') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-ubftkl') format('woff'),
+		url('fonts/icomoon.ttf?-ubftkl') format('truetype'),
+		url('fonts/icomoon.svg?-ubftkl#icomoon') format('svg');
+>>>>>>> a06e5ab05fdb22ca5744be5abc3a7c729752082c
 	font-weight: normal;
 	font-style: normal;
 }
@@ -26,6 +34,7 @@
 .icon-whatsapp:before {
 	content: "\e600";
 }
+<<<<<<< HEAD
 .icon-mail:before {
 	content: "\ea83";
 }
@@ -44,3 +53,38 @@
 .icon-skype:before {
 	content: "\eac6";
 }
+=======
+
+.icon-more-horiz:before {
+	content: "\e601";
+}
+
+.icon-mail:before {
+	content: "\e602";
+}
+
+.icon-menu:before {
+	content: "\e603";
+}
+
+.icon-skype-with-circle:before {
+	content: "\e604";
+}
+
+.icon-menu3:before {
+	content: "\e605";
+}
+
+.icon-facebook3:before {
+	content: "\e606";
+}
+
+.icon-twitter3:before {
+	content: "\e607";
+}
+
+.icon-github:before {
+	content: "\eab1";
+}
+
+>>>>>>> a06e5ab05fdb22ca5744be5abc3a7c729752082c
