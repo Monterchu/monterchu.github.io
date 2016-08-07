@@ -301,7 +301,7 @@ h3{
 		width: 60%;
 		position: fixed;
 		transition: .3s;
-    	left: -120%;;
+    	/*left: -120%;*/
 	}
 	.menu .active
 	.menu-1 ul{
