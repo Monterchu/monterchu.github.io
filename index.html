@@ -19,15 +19,15 @@
 </head>
 <body>
 		<!-- portada -->
-<section class="background-portada "> 
+<section class="background-portada"> 
 	<header class="margenes"> 
 		<!-- logo -->		
 			<figure class="logotipo">
 				<img class="img-logo" src="img/logo-montca1.png" width="80" alt="Logo">
 			</figure>
 		<!-- menu 1-->
-		<span class="icon-hamburguesa"></span>
-		<nav class="menu-1"> 
+		<span class="icon-hamburguesa" id="iconHamburguesa"></span>
+		<nav class="menu-1" id="menu"> 
         <ul>
           <li>
             <a href="#Diseño">DISEÑO</a>
@@ -60,7 +60,7 @@
 		</div>
 	</section>
 
-	<section class="background-perfil"> <!-- avatar -->
+	<section class="background-perfil "> <!-- avatar -->
 		<div class="margenes centrar-1 menu">
 			<figure class="figure-avatar">
 				<img class="avatar" src="img/Avatar-Jesus Montero.jpg" width="138px" height="138;" alt="Avatar-Jesus Montero">
@@ -240,5 +240,12 @@
 	    </form>
 	    </div>
 	</footer>
+	<script>
+		var $iconHamburguesa = document.getElementById('iconHamburguesa');
+      	var $menu = document.getElementById('menu');
+      	function toggleMenu(){
+        $menu.classList.toggle('active')
+      };
+	</script>
 </body>
 </html>

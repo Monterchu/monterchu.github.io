@@ -30,9 +30,7 @@
   color: white;
   padding: 2px;
 }
-.icon-hamburguesa:before {
-  content: "\e900";
-}
+
 .icon-Facebook-1:before {
   content: "\e906";
   font-size: 35px;
@@ -53,13 +51,13 @@
 }
 .icon-rigth:before {
   content: "\e903";
-  font-size: 35px;
+  font-size: 50px;
   color: white;
   padding: 2px;
 }
 .icon-Rigth:before {
   content: "\1f329";
-  font-size: 35px;
+  font-size: 50px;
   color: white;
   padding: 2px;
 }
@@ -201,6 +199,9 @@ a{
 	padding: 0 0 21px 0;
 	letter-spacing: 1px;
 }
+.titulo-4, .icon-rigth, .redes-responsive{
+	display: none;
+}
 article{
 	display: inline-block;
 	margin: 1px;
@@ -218,7 +219,6 @@ article{
 	padding-top: 60px;
 	padding-bottom: 30px;
 }
-
 .responsive-1{
 	display: flex;
 	justify-content: center;
@@ -280,7 +280,34 @@ h3{
 	}
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
+	
+	.icon-Twitter:before {
+	  content: "\e902";
+	  font-size: 32px;
+	  color: white;
+	  padding: 2px;
+	  margin-right: 5px;
+	}
+
+	.icon-Facebook-1:before {
+	  content: "\e906";
+	  font-size: 30px;
+	  color: white;
+	  padding: 2px;
+	  margin-right: 5px;
+	}
+	.icon-whatsapp2:before {
+	  content: "\e905";
+	  font-size: 30px;
+	  color: white;
+	  padding: 2px;
+	  margin-right: 5px;
+	}
+	.icon-hamburguesa:before {
+  	  content: "\e900";
+	}
+
 	header{
 		text-align: center;
 	}
@@ -288,7 +315,6 @@ h3{
 		display: block;
     	position: static;
 	}
-
 	.menu{
 		background: rgba(44, 60, 73, 0.9);
 		position: absolute;
@@ -301,26 +327,35 @@ h3{
 		width: 60%;
 		position: fixed;
 		transition: .3s;
-    	/*left: -120%;*/
+	/*	-webkit-filter: blur(7px);
+  		-moz-filter: blur(7px);
+  		-o-filter: blur(7px);
+  		-ms-filter: blur(7px);
+  		filter: blur(7px);*/
+    	left: -120%;
+    	
 	}
-	.menu .active
+	.active
+	{
+		left: 0;
+	}
 	.menu-1 ul{
 		padding: 0;
 		font-weight: 600;
 	}
 
 	.logotipo{
-		margin-bottom: 60px;
-		margin-top: 110px;
+		margin-bottom: 40px;
+		margin-top: 90px;
 	}
 	.img-logo{
-		width: 90px;
+		width: 120px;
 	}
 	.menu-1 li{
-	display: block;
-	text-decoration: none;
-	margin-left: 0;
-	margin-bottom: 20px;
+		display: block;
+		text-decoration: none;
+		margin-left: 0;
+		margin-bottom: 20px;
 	}
 	.figure-avatar {
     margin-top: 60px;
@@ -345,14 +380,24 @@ h3{
 		color: #d2d2d2;
 	}
 	.titulo-4{
+		display: block;
 		font-size: 14px;
 		color: white;
 		font-weight: 400;
-		margin-top: 60px;
+		margin: 60px 0;
+	}
+	.icon-rigth{
+		display: block;
+		background: -webkit-linear-gradient(#FF5F3B, #FF2A68);
+	  	-webkit-background-clip: text;
+	  	-webkit-text-fill-color: transparent;
+	  	color: tomato;
 	}
 	.boton-1{
 		margin-bottom: 0px;
 	 	margin-top: 60px;
+	 	font-weight: 400;
+    	letter-spacing: 1px;
 	}
 	.background-portada{
 		height: 680px;
@@ -391,11 +436,15 @@ h3{
 	.icon-hamburguesa{
 		color: white;
 		position: absolute;
-		top: 40px;
-		left: 40px;
+		top: 35px;
+		left: 30px;
 		cursor: pointer;
 		z-index: 2;
 		position: fixed;
+		background: -webkit-linear-gradient(#FF5F3B, #FF2A68);
+	  	-webkit-background-clip: text;
+	  	-webkit-text-fill-color: transparent;
+	  	color: tomato; 
 	}
 	}	
 
