@@ -113,6 +113,10 @@ header{
 	text-decoration: none;
 	margin-left: 15px;
 }
+
+.menu{
+	display: none;
+}
 .figure-avatar{
 	margin:0;
 	padding-top: 40px;
@@ -316,9 +320,9 @@ h3{
     	position: static;
 	}
 	.menu{
+		display: block;
 		background: rgba(44, 60, 73, 0.9);
 		position: absolute;
-		left: 0;
 		top: 0;	
 		right: 200px;
 		bottom: 0;
@@ -335,10 +339,9 @@ h3{
     	left: -120%;
     	
 	}
-	.active
-	{
-		left: 0;
-	}
+	.menu.active {
+    left: 0;
+  	}
 	.menu-1 ul{
 		padding: 0;
 		font-weight: 600;
@@ -439,7 +442,7 @@ h3{
 		top: 35px;
 		left: 30px;
 		cursor: pointer;
-		z-index: 2;
+		z-index: 4;
 		position: fixed;
 		background: -webkit-linear-gradient(#FF5F3B, #FF2A68);
 	  	-webkit-background-clip: text;
