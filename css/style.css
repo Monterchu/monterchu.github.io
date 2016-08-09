@@ -443,11 +443,16 @@ h3{
 		left: 30px;
 		cursor: pointer;
 		z-index: 4;
-		position: fixed;
+		/*position: fixed;*/
 		background: -webkit-linear-gradient(#FF5F3B, #FF2A68);
 	  	-webkit-background-clip: text;
 	  	-webkit-text-fill-color: transparent;
 	  	color: tomato; 
+	}
+	.logo-tipo{
+		position: absolute;
+    	right: -21px;
+    	top: 4px;
 	}
 	}	
 

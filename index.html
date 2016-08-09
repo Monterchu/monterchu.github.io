@@ -25,9 +25,12 @@
 			<figure class="logotipo">
 				<img class="img-logo" src="img/logo-montca1.png" width="80" alt="Logo">
 			</figure>
+			<figure class="logo-tipo">
+				<img class="img-logo" src="img/logo-tipo.png" width="30" alt="Logo">
+			</figure>
 		<!-- menu 1-->
 		<span class="icon-hamburguesa" id="icon-hamburguesa"></span>
-		<nav class="menu-1">
+	<nav class="menu-1">
         <ul>
           <li>
             <a href="#Diseño">DISEÑO</a>
@@ -117,6 +120,7 @@
 				<a href="#"><img src="img/diseno/golescolombianoshd.jpg" width="200px" alt=""></a>
 				<figcaption></figcaption>
 			</article>
+
 		</div>
 	</section>
 
@@ -239,17 +243,17 @@
 	        </div>
 	    </form>
 	    </div>
+	    <a href="#"><div class="icon-top"><span class="icon-Rigth"></span></div></a>
 	</footer>
-	<script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.5.4/blazy.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.5.4/blazy.min.js"></script>
     <script>
       var consulta = window.matchMedia('(max-width: 500px)');
       consulta.addListener(mediaQuery);
 
       var $burguerButton = document.getElementById('icon-hamburguesa');
-      var $flecha = document.getElementById('icon-rigth');
+      var $flecha = document.getElementById('icon-rigth')
       var $menu = document.getElementById('menu');
-
+      
       function toggleMenu(){
         $menu.classList.toggle('active')
       };
@@ -277,6 +281,5 @@
       //   $menu.classList.toggle('active')
       // };
     </script>
-	</script>
 </body>
 </html>
