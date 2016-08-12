@@ -120,7 +120,7 @@ header{
 	border: 1px solid red;
 }
 
-
+ 
 .figure-avatar{
 	margin:0;
 	padding-top: 40px;
@@ -190,11 +190,11 @@ a{
 	padding-top: 100px;
 	margin-top: 0;
 	margin-left: 20px;
-	font-size: 40px;
+	font-size: 22px;
 }
 .titulo-2{
 	color: #4A4A4A;
-	font-size: 24px;
+	font-size: 22px;
 	font-weight: 400;
 	margin: 0;
 	letter-spacing: 1px;
