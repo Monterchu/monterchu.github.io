@@ -116,10 +116,11 @@ header{
 	text-decoration: none;
 	margin-left: 15px;
 }
-
-.menu{
-	display: none;
+.menu-1 li: hover{
+	border: 1px solid red;
 }
+
+
 .figure-avatar{
 	margin:0;
 	padding-top: 40px;
@@ -290,7 +291,7 @@ h3{
 	}
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 670px){
 	
 	.icon-Twitter:before {
 	  content: "\e902";
@@ -405,7 +406,7 @@ h3{
 	.boton-1{
 		margin-bottom: 0px;
 	 	margin-top: 60px;
-	 	font-weight: 400;
+	 	font-weight: 500;
     	letter-spacing: 1px;
 	}
 	.background-portada{
