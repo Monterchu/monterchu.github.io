@@ -190,11 +190,11 @@ a{
 	padding-top: 100px;
 	margin-top: 0;
 	margin-left: 20px;
-	font-size: 22px;
+	font-size: 40px;
 }
 .titulo-2{
 	color: #4A4A4A;
-	font-size: 22px;
+	font-size: 24px;
 	font-weight: 400;
 	margin: 0;
 	letter-spacing: 1px;
@@ -421,6 +421,10 @@ h3{
     	width: 300px;
 		
 	}
+	article img{
+		width: 300px;
+	}
+
 	input[type="text"],
 	input[type="email"] {
 	   font-size: 16px;
