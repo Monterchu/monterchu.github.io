@@ -21,13 +21,13 @@ body{
   margin-left: 10px;
   width: 25px;
 }
-.db{
+.d-b{
   display: block;
 }
-.di{
+.d-ib{
   display: inline;
 }
-.dib{
+.di-b{
   display: inline-block;
 }
 .df{
@@ -81,6 +81,10 @@ body{
 }
 .ls-n{
   list-style: none;
+}
+ul{
+  margin: 0;
+  padding: 0;
 }
 section{
   margin: 0;
@@ -235,3 +239,14 @@ footer{
 /*@media (min-width: 992px)
 @media (min-width: 1200px) */
 /*/otras medidas*/
+
+/*efectos*/
+/*.class{
+  transform: rotate(360deg) scale(1.5) skew(45deg) translatex(300px);
+  transition:
+}
+.contenedor.productos.mediano{
+  background: red;
+  color: red;
+}*/
+/*/efectos*/
