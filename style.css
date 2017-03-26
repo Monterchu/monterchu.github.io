@@ -1,0 +1,57 @@
+body{
+  background: #F2F2F2;
+}
+
+
+/*nav*/
+.header{
+  padding-top: 15px;
+}
+
+figure{
+  margin: 0;
+}
+
+nav{
+  font-size: 22px;
+}
+/*/nav*/
+
+/*section*/
+.section{
+  background: #274359;
+  min-height: calc(100vh - 48px);
+  /*background-image: url('http://jesusmontero.co/img/Avatar-Jesus%20Montero.jpg');*/
+}
+/*/section*/
+
+.personal{
+  margin-top: 8%;
+  font-weight: 800;
+}
+
+.subtitle{
+  margin-bottom: 25%;
+}
+
+/*button*/
+
+/*/button*/
+
+/*portafolio*/
+.portafolio-text{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.portafolio{
+  border: 2px solid red;
+}
+/*/portafolio*/
+
+
+/*footer*/
+.personal-footer{
+  color: white;
+}
+/*/footer*/
