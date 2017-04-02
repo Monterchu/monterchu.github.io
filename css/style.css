@@ -20,7 +20,7 @@ nav{
 /*section*/
 .portada{
   background: #274359;
-  min-height: calc(110vh - 48px);
+  min-height: calc(100vh - 48px);
   /*background-image: url('http://jesusmontero.co/img/Avatar-Jesus%20Montero.jpg');*/
 }
 /*/section*/
@@ -42,6 +42,7 @@ nav{
 .portafolio-text{
   margin-top: 20px;
   margin-bottom: 20px;
+  color: black;
 }
 
 .portafolio{

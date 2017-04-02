@@ -6,14 +6,18 @@ body{
 /*global*/
 
 .m{
-  width: 90%;
+  width: 95%;
   margin: auto;
 }
 .m1{
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
-.hide
+.m2{
+  width: 100%;
+
+}
+.h
 {
   display: none;
 }
@@ -63,6 +67,9 @@ body{
 .fd-c{
   flex-direction: column;
 }
+.fd-rr{
+  flex-direction: row-reverse;
+}
 .ta-c{
   text-align: center;
 }
@@ -94,6 +101,13 @@ article{
   margin: 0;
   padding: 0;
 }
+/*animaciones*/
+.btn-1:hover{
+  transform: scale(1.1);
+}
+/*/animaciones*/
+
+/*botones*/
 .btn-1{
 	border-radius: 30px;
 	border: 2px solid red;
@@ -101,6 +115,8 @@ article{
 	cursor: pointer;
   margin: 20px;
   color: white;
+  box-shadow: 0px 1px 3px 0px #1b1a1a;
+  transition: 1s;
 }
 .btn-2{
   font-size: 16px;
@@ -111,11 +127,13 @@ article{
   color: red;
 }
 .btn-3{
-  margin-top: 5%;
+  margin-top: 8%;
 }
 .btn-4{
   width: 38px;
 }
+/*/botones*/
+
 /*/global*/
 
 /*color*/
@@ -145,7 +163,7 @@ h1,h2,h3,h4,h5,h6{
 /*subtitulos*/
 .subtitle-1{
   font-weight: 400;
-  font-size: 32px;
+  font-size: 24px;
 }
 .subtitle-2{
   font-weight: 400;
@@ -155,8 +173,41 @@ h1,h2,h3,h4,h5,h6{
   font-weight: 400;
   font-size: 32px;
 }
-
 /*/subtitulos*/
+
+/*menu responsive*/
+.mr{
+  background: white;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  position: fixed;
+  width: 150px;
+  left: -150px;
+  z-index: 2;
+  transition: .8s;
+}
+
+.ma{
+  left: 0;
+}
+
+.bm{
+  z-index: 4;
+  position: fixed;
+  position: relative;
+
+}
+/*/menu responsive*/
+
+/*avatar*/
+.a-1{
+  border-radius: 50%;
+  width: 100px;
+}
+/*/avatar*/
+
 
 /*texto enfasis*/
 .tb{
@@ -181,31 +232,43 @@ h1,h2,h3,h4,h5,h6{
   font-size: 18px;
 }
 /*parrafos*/
-.es{
-  color: #4A4A4A;
-}
+
 /*/texto enfasis*/
 
 /*tarjeta 1*/
-.card1{
-}
-.card2{
+.card-1{
   background-color: white;
   box-shadow: 0px 4px 4px 0px #888888;
   margin-bottom: 5%;
 }
-.card3{
-  width: 80%;
-  border: 2px solid red;
-}
-.card-txt{
-  width: 620px;
-}
-.card-txt1{
-  width: 72%;
+
+.card-2{
+  background-color: white;
+  box-shadow: 0px 4px 4px 0px #888888;
+  margin-top: 5%;
 }
 
+.card-3{
+  background-color: white;
+  box-shadow: 0px 4px 4px 0px #888888;
+  margin-bottom: 5%;
+}
 
+.card-txt-1{
+  text-align: left;
+  width: 62%;
+}
+.card-txt-3{
+  text-align: left;
+  width: 66%;
+}
+.card-txt-2{
+  width: 70%;
+}
+.card-img{
+  width: 300px;
+  height: 100%;
+}
 /*/tarjeta 1*/
 
 .p{
@@ -223,13 +286,94 @@ footer{
 
 
 /*version tablet*/
-@media screen and(max-width: 768px) {
 
+@media screen and (max-width: 750px) {
+  body{
+    border: 3px solid red;
+  }
+
+
+  /*menu responsive*/
+  .mr{
+    background: white;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    position: fixed;
+    width: 150px;
+    left: -150px;
+    z-index: 2;
+    transition: .8s;
+  }
+
+  .ma{
+    left: 0;
+  }
+
+  .bm{
+    z-index: 4;
+    position: fixed;
+    position: relative;
+
+  }
+  /*/menu responsive*/
+  .card-txt-1 {
+    width: 90%;
+  }
+  .card-txt-2{
+    text-align: left;
+    width: 95%;
+  }
+.fw-w-m{
+    flex-wrap: wrap;
+  }
+.card-img{
+  width: 100%;
 }
 /*/version tablet*/
-
 /*version movil*/
-@media screen and(max-width: 576px) {
+@media screen and (max-width: 476px) {
+  /*menu responsive*/
+  .mr{
+    background: white;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    position: fixed;
+    width: 150px;
+    left: -150px;
+    z-index: 2;
+    transition: .8s;
+  }
+
+  .ma{
+    left: 0;
+  }
+
+  .bm{
+    z-index: 4;
+    position: fixed;
+    position: relative;
+
+  }
+  /*/menu responsive*/
+.fw-w-s{
+  flex-wrap: wrap;
+}
+.card-img{
+  width: 100%;
+  }
+
+.m1{
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10%;
+}
+.card-txt-1{
+  width: 95%;
+}
 
 }
 /*/version movil*/
