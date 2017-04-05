@@ -16,7 +16,9 @@ nav{
   font-size: 22px;
 }
 /*/nav*/
-
+li{
+  margin-top: 10px;
+}
 /*section*/
 .portada{
   background: #274359;
@@ -56,3 +58,22 @@ nav{
   color: white;
 }
 /*/footer*/
+
+/*input*/
+input{
+  font-size: 16px;
+  text-align: center;
+  background: #274359;
+  color: white;
+  border-left: #274359;
+  border-right: #274359;
+  border-top: #274359;
+  width: 250px;
+  margin-right: 5px;
+}
+/*input, textarea{
+  color: red;
+}*/
+
+/*/input*/
+@media screen and (max-width: 476px)
