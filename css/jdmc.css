@@ -108,6 +108,7 @@ section{
 article{
   margin: 0;
   padding: 0;
+  height: 300px;
 }
 /*animaciones*/
 .btn-1:hover{
