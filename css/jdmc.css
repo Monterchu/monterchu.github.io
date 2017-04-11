@@ -21,6 +21,12 @@ body{
   width: 70%;
   margin: auto;
 }
+.m4{
+  width: 50%;
+}
+.m5{
+  width: 20%;
+}
 .h
 {
   display: none;
@@ -104,11 +110,6 @@ ul{
 section{
   margin: 0;
   padding: 0;
-}
-article{
-  margin: 0;
-  padding: 0;
-  height: 300px;
 }
 /*animaciones*/
 .btn-1:hover{
@@ -423,6 +424,16 @@ input[placeholder] {
 }
 
 }
+
+/*img retina*/
+/*@media screen and (-webkit-min-device-pixel-radio: 2){
+  body{
+    background: red;
+  }
+}*/
+/*/img retina*/
+
+
 /*/version movil*/
 
 

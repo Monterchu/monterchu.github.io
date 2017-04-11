@@ -25,6 +25,18 @@ li{
   min-height: calc(100vh - 48px);
   /*background-image: url('http://jesusmontero.co/img/Avatar-Jesus%20Montero.jpg');*/
 }
+.section-blog{
+  background: white;
+}
+.etiquetas{
+  background: red;
+}
+.blog{
+  background: #274359;
+}
+.noticias{
+  background: white;
+}
 /*/section*/
 
 .personal{
@@ -58,6 +70,16 @@ li{
   color: white;
 }
 /*/footer*/
+
+.article-page{
+  margin: 0;
+  padding: 0;
+  height: 300px;
+}
+.article-blog{
+  margin: 0;
+  padding: 0;
+}
 
 /*input*/
 input{
