@@ -238,6 +238,8 @@ h1,h2,h3,h4,h5,h6{
 .p-1{
   color: #9B9B9B;
   font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 19px;
 }
 .p-2{
   color: #9B9B9B;
