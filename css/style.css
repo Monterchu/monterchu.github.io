@@ -1,7 +1,9 @@
 body{
   background: #F2F2F2;
 }
-
+.bg{
+  background: white;
+}
 
 /*nav*/
 .header{
@@ -68,7 +70,9 @@ li{
 .text-blog{
   margin-top: 10px;
 }
-
+.nav-blog{
+  background: #274359;
+}
 .portafolio{
   border: 2px solid red;
 }
@@ -87,7 +91,7 @@ li{
   height: 300px;
 }
 .article-blog{
-  margin: 80px 0;
+  margin: 50px 0;
   padding: 0;
   width: 100%
 }
@@ -109,3 +113,9 @@ input{
 }*/
 
 /*/input*/
+
+@media screen and (max-width: 700px) {
+ .m4{
+   width: 90%;
+ }
+}
