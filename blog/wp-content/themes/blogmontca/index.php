@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
-  <link rel=”stylesheet” href=”<?php bloginfo(template_directory); ?>/jdmc.css” type=”text/css”/>
-  <link rel="stylesheet" href="<?php bloginfo(stylesheet_url) ?>">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title><?php bloginfo(title) ?></title>
-</head>
+<?php get_header('home') ?>
 <body class="bg">
 <!-- nav -->
 <div class="nav-blog">
@@ -125,30 +115,10 @@
 <!-- /noticias -->
 
 <!-- footer -->
-<footer class="df jc-a ai-c fd-c" id="contacto">
-  <div class="subtitle-1">
-    <h4>
-      Contacto
-    </h4>
-  </div>
-  <div class="m1 df jc-a">
-    <div class="ta-c df-w am">
-      <input type="email" name="" value="" placeholder="Correo electronico">
-      <h4>Correo</h4>
-    </div>
-    <div class="ta-c am">
-      <input type="textarea" name="" value="" placeholder="Deja un mensaje">
-      <h4>Mensaje</h4>
-    </div>
-  </div>
-  <div class="btn-2">
-    <a href="#" class="lk txt">Enviar</a>
-  </div>
-</footer>
+<?php get_footer() ?>
 <!-- /footer -->
-
 <script src='https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js'></script>
-<script type="text/javascript" src='lib/jdmc.js'></script>
+<script type="text/javascript" src='js/jdmc.js'></script>
 
 </body>
