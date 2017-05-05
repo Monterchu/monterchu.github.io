@@ -42,7 +42,7 @@
             <p class="p-1"><?php the_content() ?></p>
             <?php
         endwhile;
-        else :
+        else : 
         ?>
         <h4>No encontramos entradas</h4>
         <?php
