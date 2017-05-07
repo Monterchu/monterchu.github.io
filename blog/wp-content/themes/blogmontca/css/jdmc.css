@@ -131,12 +131,14 @@ section{
   transition: 1s;
 }
 .btn-2{
+  margin-bottom: 80px;
   font-size: 16px;
   border-radius: 30px;
 	border: 2px solid red;
   padding: 5px 25px;
 	cursor: pointer;
   color: red;
+  display: inline-block;
 }
 .btn-3{
   margin-top: 8%;
@@ -162,6 +164,7 @@ h1,h2,h3,h4,h5,h6{
 .title-1{
   font-weight: 500;
   font-size: 40px;
+  line-height: 1;
 }
 .title-2{
   font-weight: 500;
@@ -177,6 +180,7 @@ h1,h2,h3,h4,h5,h6{
 .subtitle-1{
   font-weight: 400;
   font-size: 24px;
+  line-height: 1;
 }
 .subtitle-2{
   font-weight: 400;
@@ -364,6 +368,7 @@ input[placeholder] {
 .title-1{
   font-weight: 500;
   font-size: 30px;
+  line-height: 1;
 }
 .subtitle-2{
   font-weight: 400;

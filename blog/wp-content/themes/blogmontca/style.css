@@ -36,6 +36,12 @@ li{
 .tag{
   margin-top: 50px;
 }
+.mw li a{
+  text-decoration: none;
+  color: gray;
+}
+
+
 
 /*section*/
 .portada{
