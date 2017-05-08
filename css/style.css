@@ -24,12 +24,15 @@ li{
 .tag{
   margin-top: 50px;
 }
-
+.alto{
+  height: 750px;
+}
 /*section*/
 .portada{
   background: #274359;
-  min-height: calc(100vh - 48px);
-  /*background-image: url('http://jesusmontero.co/img/Avatar-Jesus%20Montero.jpg');*/
+  min-height: calc(105vh - 48px);
+  background-image: url("../img/background3.jpg");
+  background-size: cover;
 }
 .section-blog{
   background: white;
@@ -121,5 +124,12 @@ input{
 @media screen and (max-width: 700px) {
  .m4{
    width: 90%;
+
+ }
+ .portada{
+   background: #274359;
+   min-height: calc(105vh - 48px);
+   background-image: url("../img/background3.jpg");
+   background-size: cover;
  }
 }

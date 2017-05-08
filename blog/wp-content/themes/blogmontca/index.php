@@ -31,6 +31,7 @@
         <h4>No encontramos entradas</h4>
         <?php
         endif;
+        // wp_reset_postdata();
          ?>
       </div>
     </article>
@@ -45,6 +46,3 @@
 <!-- footer -->
 <?php get_footer() ?>
 <!-- /footer -->
-
-
-</body>
