@@ -22,7 +22,7 @@ body{
   margin: auto;
 }
 .m4{
-  width: 50%;
+  width: 60%;
 }
 .m5{
   width: 20%;
@@ -131,7 +131,7 @@ section{
   transition: 1s;
 }
 .btn-2{
-  margin-bottom: 80px;
+  margin-bottom: 15px;
   font-size: 16px;
   border-radius: 30px;
 	border: 2px solid red;
@@ -332,11 +332,14 @@ input[placeholder] {
     transition: .8s;
   }
   .m1{
-    width: 40%;
+    width: 90%;
   }
   .m3{
     width: 90%;
     flex-direction: column;
+  }
+  .m4{
+    width: 100%;
   }
   .ma{
     left: 0;
